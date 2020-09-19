@@ -71,23 +71,23 @@ else if ($text == "1*2*1*0") {
 // Menu for a user who enters "3" from the second menu above
 // Will be brought to this fifth menu screen
 else if ($text == "1*3") {
-  $response = "CON You are about order for onions \n";
+  $response = "CON You are about order for Potatoes \n";
   $response .= "Please Enter 1 to confirm \n";
 }
 
 // Menu for a user who enters "1" from the fifth menu
 else if ($text == "1*3*1") {
-  $response = "CON Table for Onions -N- 170.00 \n";
+  $response = "CON Table for Potatoes -N- 170.00 \n";
   $response .= "Enter 1 to continue \n";
   $response .= "Enter 0 to cancel";
 }
 
 else if ($text == "1*3*1*1") {
-  $response = "END Your order for onions has been received";
+  $response = "END Your order for Potatoes has been received";
 }
         
 else if ($text == "1*3*1*0") {
-  $response = "END Your order for onions has been cancelled";
+  $response = "END Your order for Potatoes has been cancelled";
 }
 
 // Menu for a user who enters "4" from the second menu above
